@@ -1,0 +1,221 @@
+/*==================== Media Queries for all the devices ====================*/
+
+@media (max-width:1500px) {
+    /*==================== 2. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    /* #ms-bnr-sec .ms-home-bnr {
+        padding:120px 0;
+    } */
+    #ms-bnr-sec .ms-hero-text {
+        font-size: 100px;
+    }
+    /*---------- Who We Are Section ----------*/
+    #ms-who-we-are-sec {
+        padding-bottom: 150px;
+    }
+    /*---------- Latest Products Section ----------*/
+    #ms-products-sec {
+        padding: 100px 40px;
+    }
+    #ms-products-sec img {
+        bottom: -60px;
+        right: 30px;
+    }
+    #ms-products-sec h6 {
+        padding-left: 100px;
+    }
+    
+}
+
+@media (max-width:1400px) {
+    /*---------- Latest Products Section ----------*/
+    #ms-products-sec {
+        margin: 0 50px;
+    }
+}
+
+@media (max-width:1300px) {
+    /*---------- Latest Products Section ----------*/
+    #ms-products-sec {
+        margin: 0 20px;
+        padding: 100px 20px;
+    }
+}
+
+@media (max-width:1100px) {
+    /*==================== 2. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec .ms-home-bnr {
+        padding-top: 350px;
+    }
+    /*---------- Who We Are Section ----------*/
+    #ms-who-we-are-sec {
+        padding-bottom: 80px;
+    }
+    #ms-who-we-are-sec .ms-rotate-section {
+        transform: rotate(0deg);
+    }
+    #ms-who-we-are-sec .ms-box-one {
+        margin-left: 80px;
+    }
+    #ms-who-we-are-sec .ms-box .box-inner-content {
+        transform: rotate(0deg);
+    }
+    #ms-who-we-are-sec .ms-box-two .box-inner-content, 
+    #ms-who-we-are-sec .ms-box-four .box-inner-content {
+        left: 0;
+        top: 0;
+    }
+    #ms-who-we-are-sec .ms-box-three {
+        margin-left: 150px;
+    }
+    #ms-who-we-are-sec .ms-box-four {
+        margin-left: 70px;
+    }
+    /*---------- Latest Products Section ----------*/ 
+    #ms-products-sec {
+        margin: 0 40px;
+        padding: 100px 30px;
+    }
+    #ms-products-sec h6 {
+        padding-left: 10px;
+    }
+    /*---------- Testimonials Section ----------*/
+    #ms-testimonial-sec blockquote {
+        padding-right: 100px;
+    }
+    #quote-carousel .carousel-indicators {
+        left: 470px;
+    }
+}
+
+@media (max-width:990px) {
+    /*==================== 01. General CSS ====================*/
+    /*========== Header Section CSS ==========*/
+    header nav ul.navbar-nav {
+        background: #a09b9b;
+        padding: 15px 0px;
+    }
+    /*========== Footer Section CSS ==========*/
+    footer .ms-footer-icons {
+        margin-bottom: 30px;
+    }
+    
+    /*==================== 2. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec .ms-home-bnr {
+        padding-top:240px;
+    }
+    #ms-bnr-sec .ms-hero-text {
+        font-size: 80px;
+    }
+    /*---------- Who We Are Section ----------*/
+    #ms-who-we-are-sec {
+        padding-top: 10px;
+    }
+    #ms-who-we-are-sec .ms-rotate-section {
+        padding:0;
+    }
+    #ms-who-we-are-sec .ms-spacer-40 {
+        height: 30px;
+    }
+    #ms-who-we-are-sec .ms-box-one {
+        margin-left: -20px;
+    }
+    #ms-who-we-are-sec .ms-box-three {
+        margin-left: -20px;
+    }
+    #ms-who-we-are-sec .ms-box-four {
+        margin-left: 0;
+    }
+    /*---------- Products Section ----------*/
+    #ms-products-sec {
+        padding: 280px 30px 50px;
+        margin: 50px 20px 0;
+    }
+    #ms-products-sec img {
+        width:80%;
+        bottom: 0px;
+        right: 80px;
+    }
+    #ms-products-sec h6 {
+        padding-left: 0px;
+    }
+    /*---------- Testimonials Section ----------*/
+    #quote-carousel .carousel-indicators {
+        left: 280px;
+    }
+}
+
+@media (max-width:570px) {
+    /*==================== 01. General CSS ====================*/
+    .ms-primary-btn, .ms-secondary-btn {
+        padding: 13px 25px;
+    }
+    h2 {
+        font-size:30px
+    }
+    .ms-sec-pad {
+        padding: 50px 0;
+    }
+    /*==================== 2. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec .ms-home-bnr {
+        padding-top: 90px;
+    }
+    #ms-bnr-sec .ms-hero-text {
+        font-size: 60px;
+    }
+    /*---------- Who We Are Section ----------*/
+    #ms-who-we-are-sec {
+        padding-bottom: 0;
+    }
+    #ms-who-we-are-sec .ms-spacer-40 {
+        height: 0;
+    }
+    #ms-who-we-are-sec .ms-box {
+        width: auto;
+        margin-bottom: 30px;
+    }
+    #ms-who-we-are-sec .ms-box-one,
+    #ms-who-we-are-sec .ms-box-three {
+        margin-left: 0;
+    }
+    /*---------- Products Section ----------*/
+    #ms-products-sec {
+        margin: 100px 0 0;
+        padding: 160px 30px 50px;
+    }
+    #ms-products-sec img {
+        width: 100%;
+        right:0;
+        bottom: 0px;
+    }
+    #ms-testimonial-sec blockquote {
+        padding-right: 0;
+    }
+    #quote-carousel .carousel-indicators {
+        transform: rotate(0deg);
+        left: -20px;
+        top: 20px;
+    }
+    #quote-carousel .carousel-indicators li img {
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width:400px) {
+    /*==================== 01. General CSS ====================*/
+    /*========== Header Section CSS ==========*/
+    header .navbar-brand img {
+        width: 200px;
+    }
+    /*==================== 2. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec .ms-home-bnr {
+        padding-top: 50px;
+    }
+    #ms-bnr-sec .ms-hero-text {
+        font-size: 50px;
+    }
+}
